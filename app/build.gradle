@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.shaohuasun.branchtest"
-        minSdk 16
+        minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -55,4 +55,6 @@ dependencies {
     // optional
     // Chrome Tab matching (enables 100% guaranteed matching based on cookies)
     implementation 'androidx.browser:browser:1.0.0'
+    implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
 }
